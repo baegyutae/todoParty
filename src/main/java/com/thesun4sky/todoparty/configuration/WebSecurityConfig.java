@@ -16,7 +16,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.thesun4sky.todoparty.jwt.JwtAuthorizationFilter;
 import com.thesun4sky.todoparty.jwt.JwtUtil;
-import com.thesun4sky.todoparty.user.UserDetailsService;
+import com.thesun4sky.todoparty.security.UserDetailsService;
 import lombok.RequiredArgsConstructor;
 
 @Configuration

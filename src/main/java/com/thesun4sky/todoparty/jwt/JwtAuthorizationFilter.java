@@ -11,9 +11,9 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.thesun4sky.todoparty.CommonResponseDTO;
-import com.thesun4sky.todoparty.user.UserDetailsImpl;
-import com.thesun4sky.todoparty.user.UserDetailsService;
+import com.thesun4sky.todoparty.dto.CommonResponseDTO;
+import com.thesun4sky.todoparty.security.UserDetailsImpl;
+import com.thesun4sky.todoparty.security.UserDetailsService;
 import io.jsonwebtoken.Claims;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
